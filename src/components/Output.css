@@ -1,0 +1,19 @@
+.output-grid {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    padding-top: 25%;
+    padding-bottom: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+    grid-template-columns: repeat(5, calc(82% / 5));
+    grid-template-rows: repeat(6, calc(85% / 6));
+    column-gap: 1%;
+    row-gap: 1%;
+}
+
+.output-grid > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

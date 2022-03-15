@@ -1,0 +1,24 @@
+.notifications {
+    width: 100vw;
+    height: 90vh;
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    margin-top: 10vh;
+}
+
+.notifications .center-me {
+    margin: auto;
+    width: 10%;
+}
+
+.notifications .center-me > div {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1vh;
+    padding: 1vw;
+    border-radius: 1vw;
+    pointer-events: none;
+}

@@ -1,0 +1,66 @@
+.popup {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, .5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup .frame {
+    border-radius: 2%;
+    width: 20%;
+    height: 35%;
+    background-color: white;
+}
+
+.popup .frame > button:first-of-type {
+    margin-top: 1%;
+    margin-right: 1%;
+    color: black;
+    float: right;
+}
+
+.popup .frame > div:first-of-type {
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.popup .frame > div:nth-of-type(4) {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.popup .frame > div {
+    font-weight: bold;
+    text-align: center;
+}
+
+.popup .game-info {
+    display: flex;
+    justify-content: center;
+}
+
+.popup .game-info > div {
+    margin: 1%;
+    margin-bottom: 0%;
+    width: 10%;
+}
+
+.popup .game-info-description {
+    display: flex;
+    justify-content: center;
+}
+
+.popup .game-info-description > div {
+    font-weight: normal;
+    margin: 1%;
+    width: 10%;
+}
+
+.popup .guess-distribution > div {
+    display: flex;
+}

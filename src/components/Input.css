@@ -1,0 +1,19 @@
+.input-grid {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(20, calc(62% / 20));
+    grid-column-gap: 2%;
+    grid-template-rows: repeat(3, calc(70% / 3));
+    grid-row-gap: 5%;
+    padding-top: 30%;
+}
+
+.input-grid > button {
+    font-weight: bold;
+    grid-column: span 2;
+}
+
+.input-grid .span-three {
+    grid-column: span 3;
+}
